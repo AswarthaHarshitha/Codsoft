@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #3e2a1d; 
+}
+
+.section1 h1{
+    color: #37110d; 
+    font-size: 2.5rem; 
+}
+
+.logo{
+    font-size: 1.5rem; 
+}
+
+.dumbellimg{
+    width: 50%; /* Adjusted image width */
+    max-width: 300px; /* Added max-width */
+}
+
+.topright .gymimg{
+    width: 50%; /* Adjusted image width */
+    max-width: 400px; /* Added max-width */
+}
+
+.section2{
+    padding: 50px; }
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 10vw; 
+    text-align: center;
+}
+
+.box{
+    padding: 20px; 
+    margin: 20px; 
+    min-width: 30%; 
+    border: 2px solid #FFB6C1; 
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.3rem; /* Increased font size */
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 10px 0; /* Adjusted margin */
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 80px; /* Decreased margin */
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 25%; /* Adjusted width */
+    border-bottom: 2px solid #7f553d; /* Light brown border */
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid #7f553d; /* Light brown border */
+} 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 50px; /* Decreased padding */
+}
+
+footer{
+    padding: 20px; /* Decreased padding */
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; /* Increased margin */
+}
+
+.deal{
+    font-size: 1.3rem; /* Increased font size */
+    font-weight: bolder;
+    margin: 20px 0; /* Increased margin */
+}
