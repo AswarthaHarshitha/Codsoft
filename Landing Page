@@ -28,7 +28,7 @@
                 <div class="flex">
                     <div class="topleft flex flex-col justify-center px-2">
                         <div class=" text-center">
-                            <img class="dumbellimg" src="images/coffee-cup.png" alt="Coffee Cup">
+                            <img class="Coffee" src="C:\photos\images (1).jpeg" alt="Coffee Cup">
                         </div>
                         <h1 class="my-1 text-center">Welcome to BeanBuzz Café</h1>
                         <p class=" text-center">Indulge in the finest coffee blends crafted with passion and expertise.</p>
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="topright flex justify-center">
-                        <img class="gymimg" src="images/cafe-interior.jpg" alt="Café Interior">
+                        <img class="Cafe" src="C:\photos\images.jpeg" alt="Café Interior">
                     </div>
                 </div>
             </section>
