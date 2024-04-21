@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BeanBuzz Café - Your Daily Caffeine Fix</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">BeanBuzz Café</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li><button class="btn">Order Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="images/coffee-cup.png" alt="Coffee Cup">
+                        </div>
+                        <h1 class="my-1 text-center">Welcome to BeanBuzz Café</h1>
+                        <p class=" text-center">Indulge in the finest coffee blends crafted with passion and expertise.</p>
+                        <!-- Display the countdown timer in an element -->
+                        <p class="deal text-center">Special Offer: 10% off on all espresso drinks!</p>
+                        <div class="buttons">
+                            <button class="btn">Order now</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="images/cafe-interior.jpg" alt="Café Interior">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Our Menu</h1>
+                <p class="my-2">Explore our delicious offerings, from classic espresso drinks to decadent pastries.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Espresso</h2>
+                        <ul>
+                            <li class="highlighted">₹150</li>
+                            <li>Single Shot</li>
+                            <li>Double Shot</li>
+                            <li>Macchiato</li>
+                            <li>Affogato</li>
+                            <li><button class="btn">Order Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Specialty Drinks</h2>
+                        <ul>
+                            <li class="highlighted">₹200</li>
+                            <li>Cappuccino</li>
+                            <li>Latte</li>
+                            <li>Mocha</li>
+                            <li>Flat White</li>
+                            <li><button class="btn">Order Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pastries</h2>
+                        <ul>
+                            <li class="highlighted">₹100</li>
+                            <li>Croissants</li>
+                            <li>Muffins</li>
+                            <li>Cinnamon Rolls</li>
+                            <li>Donuts</li>
+                            <li><button class="btn">Order Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Visit Us</h1>
+                <p class="my-2">Located in the heart of the city, our café offers a cozy ambiance perfect for relaxation and conversation.</p>
+                <div class="container plantable">
+                    <!-- Address and map here -->
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            &copy; BeanBuzz Café | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
